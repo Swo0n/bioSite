@@ -1,0 +1,6 @@
+img {
+    border-radius: 50%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+  }
