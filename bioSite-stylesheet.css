@@ -1,3 +1,17 @@
+body {
+    font-family: fantasy;
+}
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #467061;
+    font-size: 2em;
+    margin-bottom: -5px;
+}
+
 /* nav  css*/
 #navbar {
     overflow: hidden;
@@ -29,6 +43,7 @@
 /* body css*/
 #container {
     background-color: #003E29;
+    height: 90vh;
 }
 
 /* phot image round  css*/
@@ -36,7 +51,8 @@
     border-radius: 50%;
     justify-content: center;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     display: flex;
   }
 
@@ -44,11 +60,12 @@
 .button {
 border: none;
 color: white;
-width: 11%;
+width: 10%;
 text-align: center;
 text-decoration: none;
 display: inline;
-font-size: 16px;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin: 20px 850px;
 padding: 25px 15px;
 }
@@ -81,6 +98,8 @@ padding: 25px 15px;
 /* hobbies  css*/
 #container2 {
     background-color: #003E29;
+    margin-bottom: -20px;
+    height: 90vh;
 }
 
 .img1 {
@@ -102,7 +121,7 @@ padding: 25px 15px;
 .p1 {
     font-size: 20px;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 95px;
     padding-bottom: 60px;
     margin-top: -5px;
 }
@@ -110,15 +129,14 @@ padding: 25px 15px;
 .p2 {
     font-size: 20px;
     padding-left: 10px;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .p3 {
     font-size: 20px;
     padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom: 80px;
+    padding-top: 80px;
 } 
 
 /* about page css */
@@ -129,8 +147,13 @@ padding: 25px 15px;
 
 .aboutP {
     margin-top: -5px;
-    padding-top: 50px;
     padding-bottom: 100px;
+    padding-left: 10px;
+}
+
+span {
+    color: #467061;
+    font-size: 1.25em;
 }
 
 /* design page css */
@@ -142,3 +165,25 @@ padding: 25px 15px;
     flex: 33.33%;
     padding: 5px;
   }
+
+
+
+
+
+
+
+/* footer  css*/
+footer {
+    margin-top: -16px;
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+}
+
+.foot {
+    float: right; 
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #467061;
+    text-decoration: none;
+}
