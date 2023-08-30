@@ -1,6 +1,144 @@
-img {
+/* nav  css*/
+#navbar {
+    overflow: hidden;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    background-color: #FFFFFF;
+}
+
+#navbar a {
+    float: right;
+    color: #467061;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar h1 {
+    color: #000000;
+    float: left;
+    
+}
+
+/* body css*/
+#container {
+    background-color: #003E29;
+}
+
+/* phot image round  css*/
+.round {
     border-radius: 50%;
     justify-content: center;
     margin: auto;
+    padding-top: 10px;
     display: flex;
+  }
+
+/* index buttons  css*/
+.button {
+border: none;
+color: white;
+width: 11%;
+text-align: center;
+text-decoration: none;
+display: inline;
+font-size: 16px;
+margin: 20px 850px;
+padding: 25px 15px;
+}
+.button1 {
+    background-color: #467061;}
+.button2 {
+    background-color: #467061;} 
+.button3 {
+    background-color: #467061;} 
+.button4 {
+    background-color: #467061;} 
+
+.button1:hover {
+    background-color: #000000;
+    color: whitesmoke;
+}
+.button2:hover {
+    background-color: #000000;
+    color: whitesmoke;
+}
+.button3:hover {
+    background-color: #000000;
+    color: whitesmoke;
+}
+.button4:hover {
+    background-color: #000000;
+    color: whitesmoke;
+}
+
+/* hobbies  css*/
+#container2 {
+    background-color: #003E29;
+}
+
+.img1 {
+    float: left;    
+    margin: 0 15px 0 0;
+}
+
+.img2 {
+    float: right;    
+    margin: 0 0 0 15px;
+}
+
+
+.img3 {
+    float: left;    
+    margin: 0 15px 0 0;
+}
+
+.p1 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: -5px;
+}
+
+.p2 {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.p3 {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+} 
+
+/* about page css */
+.aboutImg {
+    float: left;    
+    margin: 0 15px 0 0;
+}
+
+.aboutP {
+    margin-top: -5px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* design page css */
+#designs-layout {
+    display: flex;
+}
+
+.designs {
+    flex: 33.33%;
+    padding: 5px;
   }
