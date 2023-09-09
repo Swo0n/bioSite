@@ -1,0 +1,73 @@
+<!-- Juan Taylor BioSite Assignment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BioSite My Photos Page</title>
+    <link rel="stylesheet" href="bioSite-stylesheet.css">
+</head>
+<body>
+    <header>
+        <div id = "navbar">
+            <h1>Ken's BioSite</h1>
+            <a href = "about.html">About</a>
+            <a href = "hobbies.html">Hobbies</a>
+            <a href = "index.html">Home</a>
+        </div>
+    </header>
+    <h2 class = "center">My Photos</h2><br>
+    <div id = "slideshow-container">
+        <div class="mySlides fade">
+            <img src="images/family.jpg" alt="family" class = "myPhotos" style="width:85%">
+            <div class = "photo_text">Enjoying barbecue with the family.</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/moms.jpg" alt="mom birthday" class = "myPhotos" style="width:85%">
+            <div class = "photo_text">Great time at Mom's birthday party.</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/bros.jpg" alt="bros photo" class = "myPhotos" style="width:85%">
+            <div class = "photo_text">Bad boys for life!</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/ken_and_friends.jpg" alt="friends" class = "myPhotos" style="width:85%">
+            <div class = "photo_text">Game night with friends.</div>
+          </div>
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+<br><br>
+    <footer>
+        <p class="foot">Thanks for visiting</p>
+    </footer>
+</body>
+</html>
