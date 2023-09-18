@@ -51,7 +51,7 @@ h2 {
 /* body css*/
 #container {
     background-color: #003E29;
-    height: 90vh;
+    height: 120vh;
 }
 
 /* phot image round  css*/
@@ -104,11 +104,18 @@ padding: 25px 15px;
     color: whitesmoke;
 }
 
+#container3 {
+    display: inline-block;
+    background-color: #003E29;
+    margin-bottom: -20px;
+    height: 255vh;
+}
+
 /* hobbies  css*/
 #container2 {
     background-color: #003E29;
     margin-bottom: -20px;
-    height: 90vh;
+    height: 200vh;
 }
 
 .img1 {
@@ -158,21 +165,24 @@ padding: 25px 15px;
     margin-top: -5px;
     padding-bottom: 100px;
     padding-left: 10px;
+    font-size: 1.3em;
 }
 
 span {
     color: #467061;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 /* design page css */
 #designs-layout {
-    display: flex;
+    display: inline-flex;
+    margin-left: 150px;
+    margin-right: 147px;
 }
 
 .designs {
     flex: 33.33%;
-    padding: 5px;
+    padding: 65px;
   }
 
 /* favorites page css */
@@ -184,6 +194,15 @@ span {
 #fave img {
     flex: 33.33%;
     padding: 5px;
+}
+
+.faveP {
+    color: #467061;
+}
+
+.faveFig {
+    font-size: larger;
+    font-weight: 300;
 }
 
 /* contact me page css */
@@ -231,7 +250,7 @@ span {
 
 .fade {
     animation-name: fade;
-    animation-duration: 2.5s;
+    animation-duration: 3.5s;
 }
   
 @keyframes fade {
